@@ -1,0 +1,22 @@
+{
+    "manifests": {
+        "jan-olszewski-dev/exception-handling-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Jolszewski\\ExceptionHandlingBundle\\ExceptionHandlingBundle": [
+                        "all"
+                    ]
+                },
+                "post-install-output": [
+                    "<fg=white;bg=green>",
+                    "",
+                    "Exception handling bundle successfully installed",
+                    "",
+                    "</>"
+                ]
+            },
+            "files": [],
+            "ref": "cdc02449c1b5e3ecfec7fae02c1003ea9f5eaf7a"
+        }
+    }
+}

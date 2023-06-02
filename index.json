@@ -1,14 +1,35 @@
 {
+    "aliases": {
+        "jolszewski-exception-bundle": "jan-olszewski-dev/exception-handling-bundle",
+        "jolszewskiexceptionbundle": "jan-olszewski-dev/exception-handling-bundle"
+    },
     "recipes": {
         "jan-olszewski-dev/exception-handling-bundle": [
-            "0.0.1"
+            "1.0"
         ]
     },
-    "branch": "master",
-    "is_contrib": true,
+    "recipe-conflicts": [],
+    "versions": {
+        "lts": "1.0",
+        "stable": "1.0",
+        "next": "1.0",
+        "previous": "1.0",
+        "dev": "1.0",
+        "dev-name": "1.0",
+        "splits": {
+            "jan-olszewski-dev/exception-handling-bundle": [
+                "1.0"
+            ]
+        }
+    },
+    "branch": "tree",
+    "is_contrib": false,
     "_links": {
         "repository": "github.com/jan-olszewski-dev/exception-handling-bundle-recipe",
-        "origin_template": "{package}:{version}@github.com/jan-olszewski-dev/exception-handling-bundle-recipe:master",
-        "recipe_template": "https://api.github.com/repos/jan-olszewski-dev/exception-handling-bundle-recipe/contents/{package_dotted}.{version}.json"
+        "origin_template": "{package}:{version}@github.com/jan-olszewski-dev/exception-handling-bundle-recipe:tree",
+        "recipe_template": "https://raw.githubusercontent.com/jan-olszewski-dev/exception-handling-bundle-recipe/master/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/jan-olszewski-dev/exception-handling-bundle-recipe/master/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
     }
 }
