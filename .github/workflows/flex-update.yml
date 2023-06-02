@@ -1,0 +1,16 @@
+name: Update Flex endpoint
+
+on:
+  push:
+    branches:
+      - tree
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  call-flex-update:
+    uses: jan-olszewski-dev/exception-handling-bundle-recipe/.github/workflows/callable-flex-update.yml@tree
+    with:
+      versions_json: .github/versions.json

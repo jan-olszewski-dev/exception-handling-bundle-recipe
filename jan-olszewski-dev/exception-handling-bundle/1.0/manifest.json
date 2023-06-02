@@ -1,0 +1,8 @@
+{
+  "bundles": {
+    "Jolszewski\\ExceptionHandlingBundle\\ExceptionHandlingBundle": [
+      "all"
+    ]
+  },
+  "aliases": [ "jolszewski-exception-bundle" ]
+}

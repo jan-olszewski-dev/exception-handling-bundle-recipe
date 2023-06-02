@@ -1,0 +1,5 @@
+<fg=white;bg=green>
+
+Exception handling bundle successfully installed
+
+</>

@@ -1,0 +1,13 @@
+{
+  "lts": "1.0",
+  "stable": "1.0",
+  "next": "1.0",
+  "previous": "1.0",
+  "dev": "1.0",
+  "dev-name": "1.0",
+  "splits": {
+    "jan-olszewski-dev/exception-handling-bundle": [
+      "1.0"
+    ]
+  }
+}

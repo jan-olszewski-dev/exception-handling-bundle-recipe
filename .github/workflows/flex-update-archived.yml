@@ -1,0 +1,7 @@
+name: Update Flex Archives
+
+on: [ workflow_dispatch ]
+
+jobs:
+  call-flex-update:
+    uses: jan-olszewski-dev/exception-handling-bundle-recipe/.github/workflows/callable-flex-update-archived.yml@tree
